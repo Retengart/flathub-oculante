@@ -14,8 +14,19 @@
 
   <description>
     <p>
-
+      A no-nonsense hardware-accelerated image viewer. Oculante's vision is to be a fast, unobtrusive, portable image viewer with wide image format support, offering image analysis and basic editing tools.
     </p>
+    <ul>
+      <li>Free of charge, bloat-free, ad-free, privacy-respecting open source application</li>
+      <li>Fast opening of images, fast startup</li>
+      <li>Available for Win, Mac, Linux, FreeBSD and NetBSD</li>
+      <li>Supports a wide range of images and SVG</li>
+      <li>Caches images for faster reloading</li>
+      <li>Can display unassociated channels correctly (If your image uses alpha and color channels to encode data in a special way)</li>
+      <li>Lets you pick pixels, display location and color values</li>
+      <li>Offers basic nondestructive editing: Crop, resize, paint, contrast, HSV, rotate, blur, noise, ...</li>
+      <li>SIMD-accelerated image editing</li>
+    </ul>
   </description>
 
   <categories>
