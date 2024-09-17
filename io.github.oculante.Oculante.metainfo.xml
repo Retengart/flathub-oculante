@@ -11,7 +11,6 @@
   <url type="homepage">https://github.com/woelper/oculante</url>
   <url type="bugtracker">https://github.com/woelper/oculante/issues</url>
   <content_rating type="oars-1.1"/>
-
   <description>
     <p>
       A no-nonsense hardware-accelerated image viewer. Oculante's vision is to be a fast, unobtrusive, portable image viewer with wide image format support, offering image analysis and basic editing tools.
@@ -28,11 +27,9 @@
       <li>SIMD-accelerated image editing</li>
     </ul>
   </description>
-
   <categories>
     <category>Graphics</category>
   </categories>
-
   <launchable type="desktop-id">io.github.oculante.Oculante.desktop</launchable>
   <screenshots>
     <screenshot type="default">

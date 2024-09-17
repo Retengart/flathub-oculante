@@ -7,9 +7,11 @@
   "command": "oculante",
   "finish-args": [
     "--share=ipc",
+    "--share=network",
+    "--device=dri",
     "--socket=fallback-x11",
     "--socket=wayland",
-    "--device=dri"
+    "--filesystem=host"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin"
