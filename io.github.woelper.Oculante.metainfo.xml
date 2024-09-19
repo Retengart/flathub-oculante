@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.oculante.Oculante</id>
+  <id>io.github.woelper.Oculante</id>
   <name>Oculante</name>
   <summary>A fast and simple image viewer/editor</summary>
-  <developer id="io.github.oculante">
+  <developer id="io.github.woelper">
     <name>Johann Woelper</name>
   </developer>
   <metadata_license>CC0-1.0</metadata_license>
@@ -30,7 +30,7 @@
   <categories>
     <category>Graphics</category>
   </categories>
-  <launchable type="desktop-id">io.github.oculante.Oculante.desktop</launchable>
+  <launchable type="desktop-id">io.github.woelper.Oculante.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://github.com/woelper/oculante/blob/637c622b3384502f5c58ae295d5cc51549d5cfd3/res/screenshot_1.png</image>

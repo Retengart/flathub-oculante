@@ -1,5 +1,5 @@
 {
-  "app-id": "io.github.oculante.Oculante",
+  "app-id": "io.github.woelper.Oculante",
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
@@ -28,7 +28,9 @@
       "build-commands": [
         "cargo --offline fetch --manifest-path Cargo.toml --verbose",
         "cargo --offline build --release --verbose",
-        "install -Dm644 ./res/oculante.desktop /app/share/applications/$FLATPAK_ID.desktop",
+        "install -Dm644 ./res/flathub/$FLATPAK_ID.desktop /app/share/applications/$FLATPAK_ID.desktop",
+        "install -Dm644 ./res/flathub/$FLATPAK_ID.metainfo.xml /app/share/appdata/$FLATPAK_ID.metainfo.xml",
+        "install -Dm644 ./res/icons/icon.png /app/share/icons/hicolor/128x128/apps/$FLATPAK_ID.png",
         "install -Dm755 ./target/release/oculante -t /app/bin/"
       ],
       "sources": [
